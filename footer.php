@@ -51,6 +51,10 @@
         margin-bottom: 10px;
         display: inline-block;
     }
+
+    .end-footer {
+        background: #CDB167;
+    }
 </style>
 
 <footer>
@@ -106,6 +110,11 @@
         </div>
     </div>
 </footer>
+<section class="end-footer">
+    <p class="text-center py-3 mb-0">
+        © 2024-2027, All Rights Reserved
+    </p>
+</section>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
