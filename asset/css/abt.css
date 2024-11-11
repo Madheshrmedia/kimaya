@@ -1,0 +1,42 @@
+@font-face {
+    font-family: bold;
+    src: url(../fonts/fonnts.com-Magneta-Bold.otf);
+}
+@font-face {
+    font-family: book;
+    src: url(../fonts/fonnts.com-Magneta-Book-.otf);
+}
+@font-face {
+    font-family: medium;
+    src: url(../fonts/fonnts.com-Magneta-Medium.otf);
+}
+@font-face {
+    font-family: inter_regular;
+    src: url(../fonts/Inter_24pt-Regular.ttf);
+}
+@font-face {
+    font-family: thin;
+    src: url(../fonts/fonnts.com-Magneta-Thin.otf);
+}
+body{
+    font-family: book;
+}
+h1{
+    font-family: medium;  
+}
+.line{
+    height: 1px;
+    background-color: aliceblue;
+}
+.para{
+    margin-top: 2rem;
+}
+.bsb-overlay {
+    --bsb-overlay-opacity: 0 !important;
+}
+.form-select{
+    font-family: inter_regular !important;    
+   
+}
+
+  
