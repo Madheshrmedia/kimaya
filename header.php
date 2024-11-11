@@ -158,7 +158,7 @@
         } */
 
         .header-icon {
-            width: 25px;
+            width: 26px;
         }
 
         @media only screen and (max-width: 600px) {
