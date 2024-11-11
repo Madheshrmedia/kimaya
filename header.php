@@ -26,60 +26,6 @@
 
 
     <style>
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Black.otf') format('opentype');
-            font-weight: 900;
-            /* Black */
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Bold.otf') format('opentype');
-            font-weight: 700;
-            /* Bold */
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Book-.otf') format('opentype');
-            font-weight: 400;
-            /* Book */
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Book-Italic.otf') format('opentype');
-            font-weight: 400;
-            /* Book Italic */
-            font-style: italic;
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Medium.otf') format('opentype');
-            font-weight: 500;
-            /* Medium */
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Semi-Bold.otf') format('opentype');
-            font-weight: 600;
-            /* Semi-Bold */
-        }
-
-        @font-face {
-            font-family: 'Magenta';
-            src: url('fonts/fonnts.com-Magneta-Thin.otf') format('opentype');
-            font-weight: 100;
-            /* Thin */
-        }
-
-        * {
-            font-family: 'Magenta';
-        }
-
         #headerall {
             background: #000000 !important;
             z-index: 7;
@@ -159,6 +105,12 @@
 
         .header-icon {
             width: 25px;
+        }
+
+        h2,
+        h4,
+        h5 {
+            font-weight: 500 !important;
         }
 
         @media only screen and (max-width: 600px) {
