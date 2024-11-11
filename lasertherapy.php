@@ -51,7 +51,7 @@ margin-top: 1rem;
     font-weight: 600;
     color: #FFFFFF;
     padding: 21px 18px;
-    background-color: #DDAB07;
+    background-color: #DDAB07 !important;
     border-radius: 9px;
 }
 .h5margintop{
@@ -74,7 +74,7 @@ margin-top: 1rem;
   color: #FFFFFF;
   background-color: #DDAB07;
   padding: 12px 28px;
-  border: none;
+  border: none !important;
   border-radius: 25px;
      margin-top: 0rem;
 }
@@ -86,7 +86,7 @@ margin-top: 1rem;
   width: 70%;
 }
 .card{
-            border: 1px solid #DDAB07;
+            border: 1px solid #DDAB07 !important;
             width:100%;
            border-radius: 17px; 
            height: 250px;
@@ -112,7 +112,7 @@ margin-top: 1rem;
       padding-top:3%;
     }
     .card-footer{
-      background-color:#EFD78A;
+      background-color:#EFD78A !important;
      
     }
     .spntxt{
@@ -127,29 +127,37 @@ margin-top: 1rem;
   margin-top:5rem;
  }
  .accordion-button:not(.collapsed) {
-  background-color:#DDAB07;
+  background-color:#DDAB07 !important;
   color:#FFFFFF;
  }
  .alignright{
           text-align: right;
         }
         .cardwidth2{
-          border:none;
+          border:none !important;
           height: 350px;
-          background-color: #F8F8F8;
+          background-color: #F8F8F8 !important;
         }
         .cardwidth2 .card-title{
 font-weight:600;
+        }
+        .otherser{
+          margin-bottom:5rem;
+        }
+        .cardwidth{
+          background-color: #F8F8F8 !important;
         }
         </style>
     </head>
 
     <body>
         <header>
-            <!-- place navbar here -->
+        <?php
+include_once "./header.php";
+?>
         </header>
         <main>
-        <div class="container" id="journey">
+        <div class="container " id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
@@ -360,36 +368,48 @@ font-weight:600;
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What types of skin concerns can your treatments address?
+                What is Light Therapy?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Our skin care treatments effectively address a variety of concerns, including acne, acne scars, fine lines, wrinkles, uneven skin tone, pigmentation issues, and overall skin rejuvenation.
+                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Accordion Item #2
+                How long does Light Therapy take to show results?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Accordion Item #3
+                Is Light Therapy painful?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How long do the results of Light Therapy last?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
                 </div>
               </div>
             </div>
@@ -401,7 +421,7 @@ font-weight:600;
             
           </div>
         <!-- --------------------------- -->
-        <div class="container" id="journey">
+        <div class="container otherser" id="journey">
             <div class="row">
             <div class="col-sm-6 col-md-6">
             <div id="texts" style="white-space:nowrap;">
@@ -454,9 +474,11 @@ font-weight:600;
           <!-- --------------------------- -->
         </main>
         <footer>
-            <!-- place footer here -->
+        <?php
+    include_once "./footer.php";
+    ?>
         </footer>
-        <!-- Bootstrap JavaScript Libraries -->
+       
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

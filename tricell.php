@@ -51,7 +51,7 @@ margin-top: 1rem;
     font-weight: 600;
     color: #FFFFFF;
     padding: 21px 18px;
-    background-color: #DDAB07;
+    background-color: #DDAB07 !important;
     border-radius: 9px;
 }
 .h5margintop{
@@ -74,7 +74,7 @@ margin-top: 1rem;
   color: #FFFFFF;
   background-color: #DDAB07;
   padding: 12px 28px;
-  border: none;
+  border: none !important;
   border-radius: 25px;
      margin-top: 0rem;
 }
@@ -86,7 +86,7 @@ margin-top: 1rem;
   width: 70%;
 }
 .card{
-            border: 1px solid #DDAB07;
+            border: 1px solid #DDAB07 !important;
             width:100%;
            border-radius: 17px; 
            height: 250px;
@@ -112,7 +112,7 @@ margin-top: 1rem;
       padding-top:3%;
     }
     .card-footer{
-      background-color:#EFD78A;
+      background-color:#EFD78A !important;
      
     }
     .spntxt{
@@ -127,26 +127,34 @@ margin-top: 1rem;
   margin-top:5rem;
  }
  .accordion-button:not(.collapsed) {
-  background-color:#DDAB07;
+  background-color:#DDAB07 !important;
   color:#FFFFFF;
  }
  .alignright{
           text-align: right;
         }
         .cardwidth2{
-          border:none;
+          border:none !important;
           height: 350px;
-          background-color: #F8F8F8;
+          background-color: #F8F8F8 !important;
         }
         .cardwidth2 .card-title{
 font-weight:600;
+        }
+        .otherser{
+          margin-bottom:5rem;
+        }
+        .cardwidth{
+          background-color: #F8F8F8 !important;
         }
         </style>
     </head>
 
     <body>
         <header>
-            <!-- place navbar here -->
+        <?php
+include_once "./header.php";
+?>
         </header>
         <main>
         <div class="container" id="journey">
@@ -375,7 +383,7 @@ font-weight:600;
             
           </div>
         <!-- --------------------------- -->
-        <div class="container" id="journey">
+        <div class="container otherser" id="journey">
             <div class="row">
             <div class="col-sm-6 col-md-6">
             <div id="texts" style="white-space:nowrap;">
@@ -428,7 +436,9 @@ font-weight:600;
           <!-- --------------------------- -->
         </main>
         <footer>
-            <!-- place footer here -->
+        <?php
+    include_once "./footer.php";
+    ?>
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
