@@ -164,8 +164,8 @@ include_once "./header.php";
          <img src="./images/star.webp"  align="left"/>
         </div>
        <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Tricell</h2>
-       <p>At Kimaya Clinique, our advanced Tricell Service offers innovative treatments to rejuvenate your hair, skin, and body. </p>
+       <h2 style="font-weight:600">PRP for Hair</h2>
+       <p>PRP (Platelet-Rich Plasma) for Hair at Kimaya Clinique is a highly effective, non-surgical treatment to combat hair thinning and stimulate hair growth. </p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >4.8</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/tricell.webp" alt="photolaser">
+         <img src="./images/prp1.webp" alt="prp1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Tricell Hair Rejuvenation</h5>
-                  <p class="card-text">Boost hair growth and strengthen hair follicles with our Tricell Hair Rejuvenation treatment. Using advanced cell-therapy techniques, we address thinning hair, hair loss, and scalp health to restore volume and vitality naturally.<span style="visibility:hidden">skin withdsfdfdsfsfdf lasting results</span></p>
+                  <h5 class="card-title">PRP Hair Regrowth Therapy</h5>
+                  <p class="card-text">PRP Hair Regrowth Therapy is designed to stimulate dormant hair follicles and enhance hair density. By injecting concentrated plasma into the scalp, this treatment nourishes the roots, promoting new growth and strengthening existing hair strands.<span style="visibility:hidden">dsfdfsddsfdsf</span></p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Tricell Skin Rejuvenation</h5>
-                    <p class="card-text">Revitalize your skin with our Tricell Skin Rejuvenation treatment. Target fine lines, wrinkles, and uneven skin tone by stimulating skin regeneration at the cellular level. This non-invasive procedure gives you youthful, glowing skin with lasting results.</p>
+                    <h5 class="card-title">PRP for Hair Loss Prevention</h5>
+                    <p class="card-text">Prevent further hair loss with PRP therapy. This treatment improves blood flow to the scalp, providing essential nutrients and growth factors to hair follicles. It slows down hair thinning and prevents future hair loss for patients experiencing early-stage hair shedding.</p>
                  
                   </div>
                 </div>
@@ -221,8 +221,8 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Tricell Body Sculpting</h5>
-                      <p class="card-text">Achieve a toned and sculpted body with our Tricell Body Sculpting treatment. Designed to target stubborn fat and reshape your body contours, this treatment is non-surgical, using advanced technology to firm, lift, and sculpt.<span style="visibility:hidden">skin with lasting results</span></p>
+                      <h5 class="card-title">PRP Scalp Rejuvenation</h5>
+                      <p class="card-text">Revitalize your scalp with PRP Scalp Rejuvenation. This treatment improves the health of your scalp, addresses conditions like dandruff and scalp dryness, and provides a more nourishing environment for hair growth. Healthier scalp, healthier hair!<span style="visibility:hidden">dsfdfsddsfdsf</span></p>
                    
                     </div>
                   </div>
@@ -251,7 +251,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I was amazed by the results of the Tricell Hair Rejuvenation treatment. My hair feels thicker, healthier, and I’ve noticed less breakage. I’m so happy with the progress!</p>
+      <p class="card-text">After just a few PRP sessions, I noticed a significant reduction in my hair loss. My hair feels stronger, and I can see new growth in the thinning areas. I’m beyond satisfied!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -261,7 +261,7 @@ include_once "./header.php";
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Sarah M</p>
+            <p class="spnhead">— Raj K</p>
      
         
             </div>
@@ -277,7 +277,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The Tricell Skin Rejuvenation treatment transformed my skin! My wrinkles have softened, and my complexion looks so much brighter. It’s given me the confidence to face the world again</p>
+      <p class="card-text">I had tried many treatments for my thinning hair, but PRP was the one that worked. My hair looks fuller, and I’m much more confident. I highly recommend PRP for anyone facing hair loss.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -287,7 +287,7 @@ include_once "./header.php";
         <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Rahul S</p>
+            <p class="spnhead">— Priya T</p>
         
         
             </div>
@@ -304,7 +304,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After the Tricell Body Sculpting, I felt more confident in my body. It helped me achieve the shape I always wanted without surgery. The process was easy, and the results were amazing!</p>
+      <p class="card-text">PRP Scalp Rejuvenation helped me with my scalp issues, and I could see the difference in my hair quality. My scalp feels healthier, and my hair is thicker and stronger now!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -314,7 +314,7 @@ include_once "./header.php";
         <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Priya K</p>
+            <p class="spnhead">— Vikram S</p>
            
             </div>
           </div>
@@ -330,60 +330,61 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/prp1.webp" alt="prp1" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Tricellt<br> Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about PRP for  <br>Hair Treatment</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Tricell Service?
+                What is PRP for Hair?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Tricell Service is a series of advanced, non-invasive treatments targeting hair rejuvenation, skin revitalization, and body sculpting. The treatments use cutting-edge cell-therapy technology to stimulate natural healing and regeneration.
+                PRP (Platelet-Rich Plasma) for Hair is a treatment that uses your own blood’s plasma, rich in growth factors, to stimulate hair follicles and promote hair growth. It’s a natural, non-invasive solution for thinning hair and hair loss.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Is Tricell Hair Rejuvenation painful?
+                How many PRP sessions are needed for hair growth?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Tricell Hair Rejuvenation is a painless procedure. It is non-invasive, with minimal discomfort, and there is no downtime after the treatment.
+                Most clients see optimal results after 3 to 6 sessions, spaced 4 to 6 weeks apart. Maintenance treatments may be recommended based on individual progress and hair condition.
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How many Tricell Body Sculpting sessions will I need?
+                Is PRP Hair Therapy safe?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                The number of sessions depends on your individual goals. Most clients see noticeable results after 3 to 5 sessions, but a consultation with our experts will help determine the best plan for you.
+                Yes, PRP therapy is a safe procedure since it uses your body’s own plasma, reducing the risk of allergic reactions or side effects. Minimal downtime and side effects, such as slight scalp redness or swelling, are temporary and subside quickly.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                Are the results of Tricell Skin Rejuvenation permanent?
+                When will I start seeing results from PRP Hair Therapy?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                While results are long-lasting, maintenance treatments may be required over time to preserve the youthful effects, especially as skin naturally ages. We recommend regular touch-ups to maintain optimal results.
+                You may start noticing reduced hair loss and early regrowth within 3 to 4 months of starting treatment. Full results, such as thicker hair and new growth, are typically seen after several sessions.
                 </div>
               </div>
             </div>

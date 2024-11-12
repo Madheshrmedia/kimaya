@@ -164,8 +164,8 @@ include_once "./header.php";
          <img src="./images/star.webp"  align="left"/>
         </div>
        <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Tricell</h2>
-       <p>At Kimaya Clinique, our advanced Tricell Service offers innovative treatments to rejuvenate your hair, skin, and body. </p>
+       <h2 style="font-weight:600">GFC</h2>
+       <p>Kimaya Clinique’s Growth Factor Concentrate (GFC) therapy is a cutting-edge, non-surgical solution designed to rejuvenate your hair, and overall appearance. </p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/tricell.webp" alt="photolaser">
+         <img src="./images/gfc1.webp" alt="gfc1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Tricell Hair Rejuvenation</h5>
-                  <p class="card-text">Boost hair growth and strengthen hair follicles with our Tricell Hair Rejuvenation treatment. Using advanced cell-therapy techniques, we address thinning hair, hair loss, and scalp health to restore volume and vitality naturally.<span style="visibility:hidden">skin withdsfdfdsfsfdf lasting results</span></p>
+                  <h5 class="card-title">GFC Hair Restoration</h5>
+                  <p class="card-text">GFC Hair Restoration promotes hair growth and reduces hair thinning by delivering concentrated growth factors directly into the scalp. This powerful therapy revitalizes dormant hair follicles, strengthens existing hair, and enhances overall scalp health for thicker, fuller hair.</p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Tricell Skin Rejuvenation</h5>
-                    <p class="card-text">Revitalize your skin with our Tricell Skin Rejuvenation treatment. Target fine lines, wrinkles, and uneven skin tone by stimulating skin regeneration at the cellular level. This non-invasive procedure gives you youthful, glowing skin with lasting results.</p>
+                    <h5 class="card-title">GFC Skin Rejuvenation</h5>
+                    <p class="card-text">Achieve glowing, younger-looking skin with GFC Skin Rejuvenation. This advanced treatment stimulates collagen production and cellular turnover, reducing the appearance of wrinkles, fine lines, and scars. The result is firmer, smoother, and more radiant skin.</p>
                  
                   </div>
                 </div>
@@ -221,8 +221,8 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Tricell Body Sculpting</h5>
-                      <p class="card-text">Achieve a toned and sculpted body with our Tricell Body Sculpting treatment. Designed to target stubborn fat and reshape your body contours, this treatment is non-surgical, using advanced technology to firm, lift, and sculpt.<span style="visibility:hidden">skin with lasting results</span></p>
+                      <h5 class="card-title">GFC Facial Therapy</h5>
+                      <p class="card-text">Target specific areas of concern with GFC Facial Therapy. Designed to rejuvenate tired or aging skin, this treatment uses concentrated growth factors to restore elasticity, even out skin tone, and enhance skin hydration, giving you a natural, healthy glow.<span>dfdsfsfds</span></p>
                    
                     </div>
                   </div>
@@ -251,7 +251,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I was amazed by the results of the Tricell Hair Rejuvenation treatment. My hair feels thicker, healthier, and I’ve noticed less breakage. I’m so happy with the progress!</p>
+      <p class="card-text">I struggled with hair thinning for years, but after just a few GFC Hair Restoration treatments, I saw noticeable improvements. My hair is thicker, and I feel so much more confident!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -261,7 +261,7 @@ include_once "./header.php";
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Sarah M</p>
+            <p class="spnhead">— Aman R</p>
      
         
             </div>
@@ -277,7 +277,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The Tricell Skin Rejuvenation treatment transformed my skin! My wrinkles have softened, and my complexion looks so much brighter. It’s given me the confidence to face the world again</p>
+      <p class="card-text">The GFC Skin Rejuvenation treatment made a huge difference in my skin. My wrinkles have softened, and my skin feels smoother and looks younger. I’m thrilled with the results!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -287,7 +287,7 @@ include_once "./header.php";
         <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Rahul S</p>
+            <p class="spnhead">— Neha S</p>
         
         
             </div>
@@ -304,7 +304,7 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After the Tricell Body Sculpting, I felt more confident in my body. It helped me achieve the shape I always wanted without surgery. The process was easy, and the results were amazing!</p>
+      <p class="card-text">I had dull skin, but the GFC Facial Therapy completely transformed my look. Now, my skin is glowing, and it feels firmer. I love how refreshed and youthful I appear.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
@@ -314,7 +314,7 @@ include_once "./header.php";
         <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Priya K</p>
+            <p class="spnhead">— Divya M</p>
            
             </div>
           </div>
@@ -330,60 +330,60 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/gfc2.webp" alt="gfc2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Tricellt<br> Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about GFC <br>Treatment</h2>     
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Tricell Service?
+                What is GFC therapy?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Tricell Service is a series of advanced, non-invasive treatments targeting hair rejuvenation, skin revitalization, and body sculpting. The treatments use cutting-edge cell-therapy technology to stimulate natural healing and regeneration.
+                Growth Factor Concentrate (GFC) therapy uses growth factors extracted from your own blood to promote regeneration in hair, skin, and targeted facial areas. It’s a non-invasive, natural approach to enhancing your appearance.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Is Tricell Hair Rejuvenation painful?
+                How long does GFC Hair Restoration take to show results?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Tricell Hair Rejuvenation is a painless procedure. It is non-invasive, with minimal discomfort, and there is no downtime after the treatment.
+                Most patients start noticing improvements within 3-4 sessions. However, the speed of results may vary based on the individual’s hair condition and response to the treatment.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                How many Tricell Body Sculpting sessions will I need?
+                Is GFC Skin Rejuvenation painful?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                The number of sessions depends on your individual goals. Most clients see noticeable results after 3 to 5 sessions, but a consultation with our experts will help determine the best plan for you.
+                No, GFC Skin Rejuvenation is a minimally invasive procedure with little to no discomfort. Numbing agents are used to ensure your comfort during the treatment.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
-                Are the results of Tricell Skin Rejuvenation permanent?
+                How long do the results of GFC Facial Therapy last?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                While results are long-lasting, maintenance treatments may be required over time to preserve the youthful effects, especially as skin naturally ages. We recommend regular touch-ups to maintain optimal results.
+                Results from GFC Facial Therapy can last several months to over a year, depending on your skin’s condition and how well you maintain a healthy skincare routine. Periodic touch-ups are recommended for long-lasting results.
                 </div>
               </div>
             </div>
@@ -434,10 +434,11 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
+        <a href=""><img src="./images/card4.webp" alt="card4" style="width:100%;"></a> 
+
           <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
+            <h5 class="card-title">PRP for Hair</h5>
+            <p class="card-text">One of our sought-after treatments is PRP (Platelet-Rich Plasma), which utilizes the patient's own b</p>
          
           </div>
         </div>
