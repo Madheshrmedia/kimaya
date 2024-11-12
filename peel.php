@@ -157,15 +157,15 @@ include_once "./header.php";
 ?>
         </header>
         <main>
-        <div class="container " id="journey">
+        <div class="container" id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Light Therapy</h2>
-       <p>And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth </p>
+       <h5>SKIN TREATMENT</h5> 
+       <h2 style="font-weight:600">Peels</h2>
+       <p>Kimaya Clinique offers a range of chemical peels tailored to address various skin concerns, including acne, pigmentation, fine lines, and dullness.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >5.0</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/photolaser.webp" alt="photolaser">
+         <img src="./images/peels1.webp" alt="peels1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Anti-Aging Solutions</h5>
-                  <p class="card-text">Reduce fine lines, wrinkles, and age spots with treatments like Botox, fillers, and RF (radio frequency) skin tightening.</p>
+                  <h5 class="card-title">Brightening Peel</h5>
+                  <p class="card-text">This peel is designed to target dullness and uneven skin tone. It gently exfoliates dead skin cells and promotes cellular turnover, leaving the skin brighter and more radiant. Ideal for reducing pigmentation, sun damage, and age spots.<span style="visibility:hidden">fffdsffdsfxccdsfdsfdfdsfdsf</span></p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Acne and Scar Treatments</h5>
-                    <p class="card-text">Our acne management and scar removal therapies, including chemical peels, microneedling, and laser resurfacing, bring back your smooth complexion.</p>
+                    <h5 class="card-title">Acne Control Peel</h5>
+                    <p class="card-text">Our Acne Control Peel helps reduce acne breakouts by deeply cleansing pores and removing excess oil. It also minimizes post-acne marks and inflammation, promoting clearer and smoother skin. This peel is great for oily or acne-prone skin.<span style="visibility:hidden">fffdsdfdsfdsfdsfffdsfdsfdsf</span></p>
                  
                   </div>
                 </div>
@@ -221,39 +221,14 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Hydrating Facials & Chemical Peels</h5>
-                      <p class="card-text">Brighten and refresh your skin with deep hydration treatments and exfoliation to remove dead skin cells, revealing your natural glow.</p>
+                      <h5 class="card-title">Anti-Aging Peel</h5>
+                      <p class="card-text">The Anti-Aging Peel is formulated to reduce fine lines, wrinkles, and skin laxity. It stimulates collagen production and improves skin texture, resulting in a smoother, firmer, and younger-looking complexion. This peel is perfect for those seeking a rejuvenated appearance.</p>
                    
                     </div>
                   </div>
                   </div>
           </div>
-          <div class="row" id="cardrowlaser">
-            <div class="col-sm-6 col-md-4">
-              <div class="card cardwidth" >
-              
-                <div class="card-body">
-                  <h5 class="card-title">Pigmentation Correction</h5>
-                  <p class="card-text">Target dark spots, hyperpigmentation, and uneven skin tone with our specialized skin lightening and brightening treatments.</p>
-               
-                </div>
-              </div>
-              </div>
-            
-
-              <div class="col-sm-6 col-md-4">
-               
-                </div>
-                
-                <div class="col-sm-6 col-md-4">
-                <h5 class="card-title">Instructor Profiles:</h5>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                  </div>
-          </div>
+        
         </div>
             <!-- --------------------------- -->
 <div class="bg">
@@ -276,18 +251,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I struggled with acne scars for years, but after just a few sessions at Kimaya Clinique, my skin is finally clear and smooth. Their team truly transformed my complexion!</p>
+      <p class="card-text">The Brightening Peel made my skin glow! My dark spots have lightened, and my skin looks so much healthier. I love the results and will definitely be coming back for more treatments!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
+        <div class="col-sm-6 col-md-6 ">
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Ayesha R</p>
-            <p clas="spntxt">Acne scars</p>
+            <p class="spnhead">— Shalini P</p>
+     
         
             </div>
           </div>
@@ -302,18 +277,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The anti-aging treatments at Kimaya exceeded my expectations. The RF skin tightening made a noticeable difference, and I feel more confident than ever!</p>
+      <p class="card-text">I’ve struggled with acne for years, but the Acne Control Peel has helped clear my skin. My breakouts are fewer, and my complexion is smoother. </p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Neha P</p>
-            <p clas="spntxt">Anti-aging treatments</p>
+            <p class="spnhead">— Kiran T</p>
+        
         
             </div>
           </div>
@@ -329,19 +304,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After receiving hydrating facials and chemical peels, my skin has never looked better! I love how refreshed and rejuvenated I feel. Highly recommend their services!</p>
+      <p class="card-text">I tried the Anti-Aging Peel, and it worked wonders on my fine lines. My skin feels firmer, and I can see a visible difference in its texture. I feel like I’ve turned back the clock on my skin!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Riya S</p>
-            <p clas="spntxt">Hydrating facials </p>
-        
+            <p class="spnhead">— Meena J</p>
+           
             </div>
           </div>
     </div>
@@ -356,60 +330,62 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/peels2.webp" alt="peels2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Our Light<br> Therapy Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about Collagen Peels  <br>Treatment</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Light Therapy?
+                What are chemical peels?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
+                Chemical peels are skin treatments that use exfoliating acids to remove the outermost layer of dead skin cells. They improve skin tone, texture, and appearance by encouraging the growth of new, healthier skin.
+
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does Light Therapy take to show results?
+                Are chemical peels safe for all skin types?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
+                Yes, chemical peels are generally safe for all skin types. At Kimaya Clinique, we customize each peel according to your skin’s specific needs to ensure safety and effectiveness. However, a consultation is recommended to determine the best peel for your skin type.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Is Light Therapy painful?
+                How long does it take to see results from a peel?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
-                </div>
+                You may see an immediate improvement in skin texture and brightness after the first treatment. However, for deeper concerns like acne scars or pigmentation, a series of treatments may be required to achieve optimal results.
+
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How long do the results of Light Therapy last?
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                Is there any downtime after a chemical peel?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
+                Mild peels may cause some redness and peeling for a few days, while deeper peels may require a week of recovery time. Our experts will guide you on what to expect based on the type of peel you choose.
                 </div>
               </div>
             </div>
@@ -440,32 +416,35 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href=""><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Dermaplaning</h5>
+              <p class="card-text">Dermaplaning is a form of exfoliation that removes dead skin cells and vellus hair to
+                reveal smoothe</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Tricell</h5>
-            <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to offer a morecomp</p>
-         
-          </div>
+        <a href=""><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Derma Stamp</h5>
+              <p class="card-text">Kimaya Clinique also offers Derma Stamp, aminimally invasive treatment that uses a
+                device tocreate</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
-         
-          </div>
+        <a href=""><img src="./images/skin2.webp" alt="card2" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Vampire Facial</h5>
+              <p class="card-text">The Vampire Facial is a treatment that involves using the patient’s own blood to
+                rejuvenate the skin</p>
+
+            </div>
         </div>
         </div>
         </div>
@@ -478,7 +457,7 @@ include_once "./header.php";
     include_once "./footer.php";
     ?>
         </footer>
-       
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

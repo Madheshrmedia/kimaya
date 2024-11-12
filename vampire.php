@@ -157,15 +157,15 @@ include_once "./header.php";
 ?>
         </header>
         <main>
-        <div class="container " id="journey">
+        <div class="container" id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Light Therapy</h2>
-       <p>And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth </p>
+       <h5>SKIN TREATMENT</h5> 
+       <h2 style="font-weight:600">Vampire Facial</h2>
+       <p>The Vampire Facial at Kimaya Clinique is a revolutionary skin rejuvenation treatment that uses your body’s own Platelet-Rich Plasma (PRP) to stimulate collagen production.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >5.0</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/photolaser.webp" alt="photolaser">
+         <img src="./images/vamp1.webp" alt="vamp1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Anti-Aging Solutions</h5>
-                  <p class="card-text">Reduce fine lines, wrinkles, and age spots with treatments like Botox, fillers, and RF (radio frequency) skin tightening.</p>
+                  <h5 class="card-title">PRP Skin Rejuvenation</h5>
+                  <p class="card-text">PRP Skin Rejuvenation is the core of the Vampire Facial, where your own blood is drawn, processed, and the PRP is applied to your face. This stimulates collagen production, regenerates skin cells, and improves overall skin health, resulting in smoother and more radiant skin.</p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Acne and Scar Treatments</h5>
-                    <p class="card-text">Our acne management and scar removal therapies, including chemical peels, microneedling, and laser resurfacing, bring back your smooth complexion.</p>
+                    <h5 class="card-title">Microneedling with PRP</h5>
+                    <p class="card-text">This advanced combination enhances the Vampire Facial’s effectiveness by creating micro-injuries on the skin’s surface using microneedling. When PRP is applied after microneedling, it penetrates deeper into the skin, promoting faster healing, reducing scars, and improving texture and tone.</p>
                  
                   </div>
                 </div>
@@ -221,39 +221,14 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Hydrating Facials & Chemical Peels</h5>
-                      <p class="card-text">Brighten and refresh your skin with deep hydration treatments and exfoliation to remove dead skin cells, revealing your natural glow.</p>
+                      <h5 class="card-title">Anti-Aging Vampire Facial</h5>
+                      <p class="card-text">This treatment targets fine lines, wrinkles, and sagging skin by using PRP’s natural growth factors to boost collagen and elastin production. It restores youthful firmness and elasticity, giving you a more refreshed and youthful appearance without surgery.<span style="visibility:hidden">fffdsffdsfdsfdsf</span></p>
                    
                     </div>
                   </div>
                   </div>
           </div>
-          <div class="row" id="cardrowlaser">
-            <div class="col-sm-6 col-md-4">
-              <div class="card cardwidth" >
-              
-                <div class="card-body">
-                  <h5 class="card-title">Pigmentation Correction</h5>
-                  <p class="card-text">Target dark spots, hyperpigmentation, and uneven skin tone with our specialized skin lightening and brightening treatments.</p>
-               
-                </div>
-              </div>
-              </div>
-            
-
-              <div class="col-sm-6 col-md-4">
-               
-                </div>
-                
-                <div class="col-sm-6 col-md-4">
-                <h5 class="card-title">Instructor Profiles:</h5>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                  </div>
-          </div>
+        
         </div>
             <!-- --------------------------- -->
 <div class="bg">
@@ -276,18 +251,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I struggled with acne scars for years, but after just a few sessions at Kimaya Clinique, my skin is finally clear and smooth. Their team truly transformed my complexion!</p>
+      <p class="card-text">I was amazed by the results of the Vampire Facial. My skin is glowing, and my fine lines have diminished significantly. It feels like I have younger skin all over again!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
+        <div class="col-sm-6 col-md-6 ">
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Ayesha R</p>
-            <p clas="spntxt">Acne scars</p>
+            <p class="spnhead">— Neha M</p>
+     
         
             </div>
           </div>
@@ -302,18 +277,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The anti-aging treatments at Kimaya exceeded my expectations. The RF skin tightening made a noticeable difference, and I feel more confident than ever!</p>
+      <p class="card-text">I had acne scars that wouldn’t go away, but after the PRP Microneedling treatment, my skin has improved so much. The scars are fading, and my skin looks smoother and brighter.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Neha P</p>
-            <p clas="spntxt">Anti-aging treatments</p>
+            <p class="spnhead">— Saurabh D</p>
+        
         
             </div>
           </div>
@@ -329,19 +304,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After receiving hydrating facials and chemical peels, my skin has never looked better! I love how refreshed and rejuvenated I feel. Highly recommend their services!</p>
+      <p class="card-text">The Anti-Aging Vampire Facial gave me a youthful glow that I haven’t seen in years! My wrinkles have softened, and my skin feels firmer. I’m so happy with the results.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Riya S</p>
-            <p clas="spntxt">Hydrating facials </p>
-        
+            <p class="spnhead">— Priyanka S</p>
+           
             </div>
           </div>
     </div>
@@ -356,60 +330,61 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/vamp2.webp" alt="vamp2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Our Light<br> Therapy Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about Skin  <br>Lightening Treatment</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Light Therapy?
+                What is a Vampire Facial?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
+                A Vampire Facial is a skin rejuvenation treatment that uses Platelet-Rich Plasma (PRP) from your own blood to stimulate collagen production and cell regeneration. This natural approach helps to improve skin tone, texture, and reduce signs of aging.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does Light Therapy take to show results?
+                Is the Vampire Facial painful?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
+                The Vampire Facial is generally well-tolerated. A numbing cream is applied before the treatment, and most clients report minimal discomfort during the procedure. Any mild redness or swelling typically subsides within a few hours to a day.
+
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Is Light Therapy painful?
+                How many Vampire Facial sessions are needed for best results?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
-                </div>
+                For optimal results, 3 to 4 sessions spaced about 4 to 6 weeks apart are usually recommended. Maintenance sessions every 6 to 12 months can help sustain the youthful effects.
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How long do the results of Light Therapy last?
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                What are the benefits of the Vampire Facial?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
+                The Vampire Facial improves skin texture, reduces fine lines and wrinkles, fades acne scars, and enhances overall radiance. It uses your body’s natural healing properties to rejuvenate your skin with minimal downtime.
                 </div>
               </div>
             </div>
@@ -440,32 +415,35 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href=""><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">PRP-Skin</h5>
+              <p class="card-text">Also offered at the clinic are PRP-Skin treatments,which use platelet-rich plasma to
+                rejuvenate the</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Tricell</h5>
-            <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to offer a morecomp</p>
-         
-          </div>
+        <a href=""><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Dermaplaning</h5>
+              <p class="card-text">Dermaplaning is a form of exfoliation that removes dead skin cells and vellus hair to
+                reveal smoothe</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
-         
-          </div>
+        <a href=""><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Derma Stamp</h5>
+              <p class="card-text">Kimaya Clinique also offers Derma Stamp, aminimally invasive treatment that uses a
+                device tocreate</p>
+
+            </div>
         </div>
         </div>
         </div>
@@ -478,7 +456,7 @@ include_once "./header.php";
     include_once "./footer.php";
     ?>
         </footer>
-       
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

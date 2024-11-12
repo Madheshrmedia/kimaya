@@ -72,11 +72,11 @@ margin-top: 1rem;
 }
 .orangebut{
   color: #FFFFFF;
-  background-color: #DDAB07;
-  padding: 12px 28px;
+  background-color: #DDAB07 !important;
+  padding: 12px 28px !important;
   border: none !important;
-  border-radius: 25px;
-     margin-top: 0rem;
+  border-radius: 25px !important;
+     margin-top: 0rem !important;
 }
 .padleft{
     text-align:center;
@@ -238,7 +238,7 @@ include_once "./header.php";
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>Review</h5> 
+       <h5>REVIEW</h5> 
        <h2 style="font-weight:600">What Our Clients Say</h2>
        </div>
        </div>

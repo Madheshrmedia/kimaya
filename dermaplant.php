@@ -157,15 +157,15 @@ include_once "./header.php";
 ?>
         </header>
         <main>
-        <div class="container " id="journey">
+        <div class="container" id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Light Therapy</h2>
-       <p>And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth </p>
+       <h5>SKIN TREATMENT</h5> 
+       <h2 style="font-weight:600">Dermaplaning</h2>
+       <p>Dermaplaning at Kimaya Clinique is a non-invasive exfoliation treatment that gently removes dead skin cells and fine facial hair, revealing smoother, brighter, and softer skin.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >5.0</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/photolaser.webp" alt="photolaser">
+         <img src="./images/dermaplant1.webp" alt="dermaplant1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Anti-Aging Solutions</h5>
-                  <p class="card-text">Reduce fine lines, wrinkles, and age spots with treatments like Botox, fillers, and RF (radio frequency) skin tightening.</p>
+                  <h5 class="card-title">Exfoliation & Radiance Boost</h5>
+                  <p class="card-text">Dermaplaning removes the outermost layer of dead skin cells and peach fuzz, instantly revealing a brighter, more even-toned complexion. It leaves your skin incredibly smooth, making it the perfect treatment for achieving an immediate glow.</p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Acne and Scar Treatments</h5>
-                    <p class="card-text">Our acne management and scar removal therapies, including chemical peels, microneedling, and laser resurfacing, bring back your smooth complexion.</p>
+                    <h5 class="card-title">Dermaplaning + Hydration Boost</h5>
+                    <p class="card-text">This combination treatment enhances dermaplaning with a deep hydration boost. After exfoliation, a nourishing serum is applied to your fresh skin, allowing for better absorption and hydration, leaving your skin plump and refreshed.</p>
                  
                   </div>
                 </div>
@@ -221,39 +221,14 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Hydrating Facials & Chemical Peels</h5>
-                      <p class="card-text">Brighten and refresh your skin with deep hydration treatments and exfoliation to remove dead skin cells, revealing your natural glow.</p>
+                      <h5 class="card-title">Dermaplaning for Makeup Prep</h5>
+                      <p class="card-text">Dermaplaning is ideal for prepping your skin before an event or special occasion. By removing fine hair and dead skin cells, it creates a flawless, smooth canvas for makeup application, helping your makeup go on seamlessly and last longer.</span></p>
                    
                     </div>
                   </div>
                   </div>
           </div>
-          <div class="row" id="cardrowlaser">
-            <div class="col-sm-6 col-md-4">
-              <div class="card cardwidth" >
-              
-                <div class="card-body">
-                  <h5 class="card-title">Pigmentation Correction</h5>
-                  <p class="card-text">Target dark spots, hyperpigmentation, and uneven skin tone with our specialized skin lightening and brightening treatments.</p>
-               
-                </div>
-              </div>
-              </div>
-            
-
-              <div class="col-sm-6 col-md-4">
-               
-                </div>
-                
-                <div class="col-sm-6 col-md-4">
-                <h5 class="card-title">Instructor Profiles:</h5>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                  </div>
-          </div>
+        
         </div>
             <!-- --------------------------- -->
 <div class="bg">
@@ -276,18 +251,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I struggled with acne scars for years, but after just a few sessions at Kimaya Clinique, my skin is finally clear and smooth. Their team truly transformed my complexion!</p>
+      <p class="card-text">After my first dermaplaning session, my skin felt incredibly soft and smooth. The glow was instant, and my makeup has never looked better. I’m definitely adding this to my skincare routine!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
+        <div class="col-sm-6 col-md-6 ">
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Ayesha R</p>
-            <p clas="spntxt">Acne scars</p>
+            <p class="spnhead">— Radhika N</p>
+     
         
             </div>
           </div>
@@ -302,18 +277,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The anti-aging treatments at Kimaya exceeded my expectations. The RF skin tightening made a noticeable difference, and I feel more confident than ever!</p>
+      <p class="card-text">I was skeptical about dermaplaning at first, but the results blew me away. My skin looks brighter, and it’s helped with my post-acne marks. I’m very impressed with how much better my skin looks!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Neha P</p>
-            <p clas="spntxt">Anti-aging treatments</p>
+            <p class="spnhead">— Kunal P</p>
+        
         
             </div>
           </div>
@@ -329,19 +304,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After receiving hydrating facials and chemical peels, my skin has never looked better! I love how refreshed and rejuvenated I feel. Highly recommend their services!</p>
+      <p class="card-text">I tried dermaplaning before a big event, and my makeup went on flawlessly. My skin felt so smooth, and the glow lasted for days. I can’t wait for my next session!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Riya S</p>
-            <p clas="spntxt">Hydrating facials </p>
-        
+            <p class="spnhead">— Shweta T</p>
+           
             </div>
           </div>
     </div>
@@ -356,60 +330,62 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/dermaplant2.webp" alt="dermaplant2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Our Light<br> Therapy Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about <br>Dermaplaning Treatment</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Light Therapy?
+                What is dermaplaning?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
+                Dermaplaning is a safe, non-invasive exfoliation treatment that uses a sterile blade to gently remove dead skin cells and fine hair from your face, leaving your skin smooth, bright, and glowing.
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does Light Therapy take to show results?
+                Is dermaplaning safe for all skin types?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
+                Yes, dermaplaning is safe for most skin types, including sensitive skin. However, it’s not recommended for those with active acne or certain skin conditions. A consultation with our professionals will help determine if it’s right for you.
+
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Is Light Therapy painful?
+                How often should I get dermaplaning?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
-                </div>
+                Dermaplaning can be done every 4 to 6 weeks, depending on your skin’s needs. Regular treatments help maintain smoothness, brightness, and improve the effectiveness of your skincare products.
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How long do the results of Light Therapy last?
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                Will dermaplaning make my hair grow back thicker?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
+                No, dermaplaning will not cause your facial hair to grow back thicker or darker. The hair will grow back the same texture and color as before the treatment.
                 </div>
               </div>
             </div>
@@ -440,32 +416,35 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href=""><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">PRP-Skin</h5>
+              <p class="card-text">Also offered at the clinic are PRP-Skin treatments,which use platelet-rich plasma to
+                rejuvenate the</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Tricell</h5>
-            <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to offer a morecomp</p>
-         
-          </div>
+        <a href=""><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Collagen Induction Therapy</h5>
+              <p class="card-text">Another effective treatment is Collagen Induction Therapy, also known as micro
+                needling, which uses </p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
-         
-          </div>
+        <a href=""><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Derma Stamp</h5>
+              <p class="card-text">Kimaya Clinique also offers Derma Stamp, aminimally invasive treatment that uses a
+                device tocreate</p>
+
+            </div>
         </div>
         </div>
         </div>
@@ -478,7 +457,7 @@ include_once "./header.php";
     include_once "./footer.php";
     ?>
         </footer>
-       
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

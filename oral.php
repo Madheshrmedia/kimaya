@@ -157,18 +157,18 @@ include_once "./header.php";
 ?>
         </header>
         <main>
-        <div class="container " id="journey">
+        <div class="container" id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Light Therapy</h2>
-       <p>And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth </p>
+       <h5>DENTAL</h5> 
+       <h2 style="font-weight:600">Oral Cancer Screening & Treatment</h2>
+       <p>At Kimaya Clinique, our Oral Cancer Screening & Treatment service offers comprehensive early detection and expert care for oral cancer.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
-          <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+          <button type="button" class="btn btn-primary orangebut" data-bs-target="#exampleModal" >BOOK NOW</button>
           </div>
           <div class="col-sm-6 col-md-6">
             <span class="fa fa-star checked"></span>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >5.0</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/photolaser.webp" alt="photolaser">
+         <img src="./images/oral1.webp" alt="oral1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Anti-Aging Solutions</h5>
-                  <p class="card-text">Reduce fine lines, wrinkles, and age spots with treatments like Botox, fillers, and RF (radio frequency) skin tightening.</p>
+                  <h5 class="card-title">Oral Cancer Screening</h5>
+                  <p class="card-text">Our oral cancer screening includes a thorough examination of your mouth, gums, throat, and soft tissues using the latest diagnostic tools. This non-invasive procedure helps detect any signs of abnormal tissue growth or early stages of cancer, allowing for early intervention.</p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Acne and Scar Treatments</h5>
-                    <p class="card-text">Our acne management and scar removal therapies, including chemical peels, microneedling, and laser resurfacing, bring back your smooth complexion.</p>
+                    <h5 class="card-title">Biopsy & Diagnosis</h5>
+                    <p class="card-text">If abnormal tissue is detected during screening, we perform a biopsy to determine if the cells are cancerous. The biopsy results are used to establish a precise diagnosis, enabling us to recommend the most appropriate treatment plan for you.<span style="visibility:hidden">fffdsffdsfdsfdsf</span></p>
                  
                   </div>
                 </div>
@@ -221,39 +221,14 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Hydrating Facials & Chemical Peels</h5>
-                      <p class="card-text">Brighten and refresh your skin with deep hydration treatments and exfoliation to remove dead skin cells, revealing your natural glow.</p>
+                      <h5 class="card-title">Oral Cancer Treatment</h5>
+                      <p class="card-text">Kimaya Clinique offers a range of treatment options for oral cancer, including surgery, chemotherapy, and radiation therapy. Our multidisciplinary team works closely with each patient to develop a personalized treatment plan that addresses the cancer while ensuring your comfort and well-being.</p>
                    
                     </div>
                   </div>
                   </div>
           </div>
-          <div class="row" id="cardrowlaser">
-            <div class="col-sm-6 col-md-4">
-              <div class="card cardwidth" >
-              
-                <div class="card-body">
-                  <h5 class="card-title">Pigmentation Correction</h5>
-                  <p class="card-text">Target dark spots, hyperpigmentation, and uneven skin tone with our specialized skin lightening and brightening treatments.</p>
-               
-                </div>
-              </div>
-              </div>
-            
-
-              <div class="col-sm-6 col-md-4">
-               
-                </div>
-                
-                <div class="col-sm-6 col-md-4">
-                <h5 class="card-title">Instructor Profiles:</h5>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                  </div>
-          </div>
+        
         </div>
             <!-- --------------------------- -->
 <div class="bg">
@@ -276,18 +251,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I struggled with acne scars for years, but after just a few sessions at Kimaya Clinique, my skin is finally clear and smooth. Their team truly transformed my complexion!</p>
+      <p class="card-text">I’m so grateful for the early detection during my oral cancer screening at Kimaya Clinique. The team was thorough, and I was able to get treated quickly. Their care saved my life!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
+        <div class="col-sm-6 col-md-6 ">
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Ayesha R</p>
-            <p clas="spntxt">Acne scars</p>
+            <p class="spnhead">— Ramesh K</p>
+     
         
             </div>
           </div>
@@ -302,18 +277,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The anti-aging treatments at Kimaya exceeded my expectations. The RF skin tightening made a noticeable difference, and I feel more confident than ever!</p>
+      <p class="card-text">After my biopsy confirmed early-stage oral cancer, the treatment at Kimaya Clinique was exceptional. The doctors explained everything clearly, and the process was smooth and supportive. </p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Neha P</p>
-            <p clas="spntxt">Anti-aging treatments</p>
+            <p class="spnhead">— Anjali S</p>
+        
         
             </div>
           </div>
@@ -329,19 +304,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After receiving hydrating facials and chemical peels, my skin has never looked better! I love how refreshed and rejuvenated I feel. Highly recommend their services!</p>
+      <p class="card-text">I was nervous about getting screened for oral cancer, but the professionals at Kimaya Clinique made me feel comfortable. I’m glad I took the step early, and their guidance was invaluable.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Riya S</p>
-            <p clas="spntxt">Hydrating facials </p>
-        
+            <p class="spnhead">— Vijay T</p>
+           
             </div>
           </div>
     </div>
@@ -356,60 +330,60 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/oral2.webp" alt="oral2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Our Light<br> Therapy Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about Oral Cancer  <br>Screening</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Light Therapy?
+                What is oral cancer screening?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
+                Oral cancer screening is a non-invasive procedure where a healthcare professional examines your mouth, throat, and soft tissues for signs of abnormal tissue growth or cancer. Early detection is key in successfully treating oral cancer.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does Light Therapy take to show results?
+                Who should get screened for oral cancer?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
+                Anyone can benefit from oral cancer screening, but it’s especially recommended for individuals who use tobacco, consume alcohol regularly, or have a family history of cancer. Regular screenings help catch any early signs of cancer before they progress.
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Is Light Therapy painful?
+                What happens if abnormal tissue is found during screening?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
-                </div>
+                If abnormal tissue is detected, a biopsy may be performed to determine if the cells are cancerous. The biopsy results help us diagnose the condition and create a tailored treatment plan for you.
+
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How long do the results of Light Therapy last?
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                What are the treatment options for oral cancer?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
+                Treatment for oral cancer may include surgery to remove the cancerous tissue, chemotherapy, or radiation therapy. The best course of action depends on the stage and location of the cancer, as well as the patient’s overall health.
                 </div>
               </div>
             </div>
@@ -440,32 +414,36 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href="./ssopt.php
+            "><img src="./images/dental2.webp" alt="card2" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Sleep/Sedation Options</h5>
+              <p class="card-text">For those with dental anxiety or in need of extensive treatment, we offer
+                Sleep/Sedation options to </p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Tricell</h5>
-            <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to offer a morecomp</p>
-         
-          </div>
+        <a href="./gdcare.php"><img src="./images/dental3.webp" alt="card3" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">General Dental Care</h5>
+              <p class="card-text">We provide comprehensive General Dental Care, including routine check-ups, cleanings,
+                and preventive</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
-         
-          </div>
+        <a href="./scser.php"><img src="./images/dental4.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Smile Correction Services</h5>
+              <p class="card-text">Transform your smile with our Smile Correction Services, including teeth whitening,
+                aesthetic writin</p>
+
+            </div>
         </div>
         </div>
         </div>
@@ -478,7 +456,7 @@ include_once "./header.php";
     include_once "./footer.php";
     ?>
         </footer>
-       
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

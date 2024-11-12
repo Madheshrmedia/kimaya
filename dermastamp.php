@@ -157,15 +157,15 @@ include_once "./header.php";
 ?>
         </header>
         <main>
-        <div class="container " id="journey">
+        <div class="container" id="journey">
         <div class="row">
         <div class="col-sm-6 col-md-6">
         <div id="texts" style="white-space:nowrap;">
          <img src="./images/star.webp"  align="left"/>
         </div>
-       <h5>HAIR TREATMENT</h5> 
-       <h2 style="font-weight:600">Light Therapy</h2>
-       <p>And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth </p>
+       <h5>SKIN TREATMENT</h5> 
+       <h2 style="font-weight:600">Derma Stamp</h2>
+       <p>Derma Stamp at Kimaya Clinique is a highly effective skin rejuvenation treatment that uses micro-needling technology to promote collagen production</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
           <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
@@ -176,7 +176,7 @@ include_once "./header.php";
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
             <span class="fa fa-star checked"></span>
-            <span >5.0</span><br>
+            <span >4.9</span><br>
             <span class="spantext">
               From 120+ reviews
             </span>
@@ -186,7 +186,7 @@ include_once "./header.php";
       </div>
        
         <div class="col-sm-6 col-md-6 padleft">
-         <img src="./images/photolaser.webp" alt="photolaser">
+         <img src="./images/dermastamp1.webp" alt="dermastamp1">
         </div>
       </div>
         </div>
@@ -198,8 +198,8 @@ include_once "./header.php";
               <div class="card cardwidth" >
               
                 <div class="card-body">
-                  <h5 class="card-title">Anti-Aging Solutions</h5>
-                  <p class="card-text">Reduce fine lines, wrinkles, and age spots with treatments like Botox, fillers, and RF (radio frequency) skin tightening.</p>
+                  <h5 class="card-title">Collagen Boost with Derma Stamp</h5>
+                  <p class="card-text">The Derma Stamp procedure stimulates collagen production by creating micro-channels in the skin. These tiny punctures trigger the skin’s natural healing process, leading to firmer, smoother skin with a visible reduction in wrinkles and fine lines.</p>
                
                 </div>
               </div>
@@ -210,8 +210,8 @@ include_once "./header.php";
                 <div class="card cardwidth" >
                 
                   <div class="card-body">
-                    <h5 class="card-title">Acne and Scar Treatments</h5>
-                    <p class="card-text">Our acne management and scar removal therapies, including chemical peels, microneedling, and laser resurfacing, bring back your smooth complexion.</p>
+                    <h5 class="card-title">Scar Reduction Treatment</h5>
+                    <p class="card-text">Derma Stamp is highly effective in reducing acne scars, surgical scars, and stretch marks. By breaking down scar tissue and encouraging new cell growth, this treatment gradually improves skin texture and minimizes the appearance of scars.</p>
                  
                   </div>
                 </div>
@@ -221,39 +221,14 @@ include_once "./header.php";
                   <div class="card cardwidth" >
                   
                     <div class="card-body">
-                      <h5 class="card-title">Hydrating Facials & Chemical Peels</h5>
-                      <p class="card-text">Brighten and refresh your skin with deep hydration treatments and exfoliation to remove dead skin cells, revealing your natural glow.</p>
+                      <h5 class="card-title">Pigmentation & Dark Spot Treatment</h5>
+                      <p class="card-text">Derma Stamp is also beneficial for treating uneven skin tone, pigmentation, and dark spots. By stimulating new skin cell production, the treatment lightens hyperpigmentation and evens out the skin for a more radiant complexion.</p>
                    
                     </div>
                   </div>
                   </div>
           </div>
-          <div class="row" id="cardrowlaser">
-            <div class="col-sm-6 col-md-4">
-              <div class="card cardwidth" >
-              
-                <div class="card-body">
-                  <h5 class="card-title">Pigmentation Correction</h5>
-                  <p class="card-text">Target dark spots, hyperpigmentation, and uneven skin tone with our specialized skin lightening and brightening treatments.</p>
-               
-                </div>
-              </div>
-              </div>
-            
-
-              <div class="col-sm-6 col-md-4">
-               
-                </div>
-                
-                <div class="col-sm-6 col-md-4">
-                <h5 class="card-title">Instructor Profiles:</h5>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                <p class="cardpara" ><span><img src="./images/Vector.webp"></span>   Expert Team of Professionals</p>
-                  </div>
-          </div>
+        
         </div>
             <!-- --------------------------- -->
 <div class="bg">
@@ -276,18 +251,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">I struggled with acne scars for years, but after just a few sessions at Kimaya Clinique, my skin is finally clear and smooth. Their team truly transformed my complexion!</p>
+      <p class="card-text">The Derma Stamp treatment helped me reduce my acne scars. After a few sessions, my skin became smoother, and the scars are barely noticeable now. I feel much more confident!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
+        <div class="col-sm-6 col-md-6 ">
         <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Ayesha R</p>
-            <p clas="spntxt">Acne scars</p>
+            <p class="spnhead">— Simran J</p>
+     
         
             </div>
           </div>
@@ -302,18 +277,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">The anti-aging treatments at Kimaya exceeded my expectations. The RF skin tightening made a noticeable difference, and I feel more confident than ever!</p>
+      <p class="card-text">I tried Derma Stamp for my fine lines, and the results have been incredible. My skin feels tighter, and the lines around my eyes and mouth are much less visible. I highly recommend it!</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client3.png" class="card-img-top" alt="client3">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Neha P</p>
-            <p clas="spntxt">Anti-aging treatments</p>
+            <p class="spnhead">— Vikash R</p>
+        
         
             </div>
           </div>
@@ -329,19 +304,18 @@ include_once "./header.php";
   
     <div class="card-body">
     
-      <p class="card-text">After receiving hydrating facials and chemical peels, my skin has never looked better! I love how refreshed and rejuvenated I feel. Highly recommend their services!</p>
+      <p class="card-text">The pigmentation on my cheeks and forehead has faded significantly after Derma Stamp. My skin tone is much more even now, and I love how my skin looks and feels.</p>
     </div>
     </div>
     <div class="card-footer" style=" border-bottom-left-radius: 17px;
       border-bottom-right-radius: 17px;">
     <div class="row" style="margin: 0 0.5rem;" >
-        <div class="col-sm-6 col-md-6 paddingbot">
-        <img src="./images/testi1.png" class="card-img-top" alt="fe_quote-left">
+        <div class="col-sm-6 col-md-6 ">
+        <img src="./images/client2.png" class="card-img-top" alt="client2">
           </div>
           <div class="col-sm-6 col-md-6">
-            <p class="spnhead">— Riya S</p>
-            <p clas="spntxt">Hydrating facials </p>
-        
+            <p class="spnhead">— Priya S</p>
+           
             </div>
           </div>
     </div>
@@ -356,60 +330,62 @@ include_once "./header.php";
             <div class="container" id="faq">
             <div class="row">
             <div class="col-sm-6 col-md-6 ">
-             <img src="./images/faqimg.webp" alt="faqimg" style="width:80%">
+             <img src="./images/dermastamp2.webp" alt="dermastamp2" style="width:80%">
             </div>
             <div class="col-sm-6 col-md-6 ">
             <div id="texts" style="white-space:nowrap;">
              <img src="./images/star.webp"  align="left"/>
             </div>
            <h5>Faq</h5> 
-           <h2 style="font-weight:600">FAQs about Our Light<br> Therapy Treatment</h2>     
+           <h2 style="font-weight:600">FAQs about Derma Stamp <br> Treatment</h2>      
            <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                What is Light Therapy?
+                What is Derma Stamp?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Light Therapy uses specific wavelengths of light to stimulate cells in your skin, promoting regeneration and targeting concerns like acne, fine lines, and overall skin health. It’s a non-invasive, natural approach to improving skin appearance.
+                Derma Stamp is a micro-needling treatment that uses a specialized stamping device with fine needles to create tiny punctures in the skin. This stimulates collagen production, leading to improved skin texture, reduced scars, and a more youthful appearance.
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                How long does Light Therapy take to show results?
+                Is the Derma Stamp treatment painful?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Most patients start noticing improvements within a few sessions, typically within 2-4 weeks. However, the speed of results may vary based on individual skin type and the specific concern being treated.
+                The treatment is generally well-tolerated. A topical numbing cream is applied before the procedure to minimize discomfort. You may experience mild redness or sensitivity afterward, which typically subsides within a day or two.
+
+
                 </div>
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Is Light Therapy painful?
+                How many sessions are required for Derma Stamp?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                No, Light Therapy is a non-invasive and painless procedure. Most people feel only a gentle warmth during the session, and it requires no numbing agents.
-                </div>
+                The number of sessions depends on your skin concerns. For optimal results, 3 to 6 sessions spaced 4 to 6 weeks apart are typically recommended. A consultation with our specialists will help determine the best plan for you.
               </div>
             </div>
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                How long do the results of Light Therapy last?
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                What skin conditions can Derma Stamp treat?
                 </button>
               </h2>
               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                Results from Light Therapy can last several months, depending on your skin condition and how well you maintain a healthy skincare routine. Periodic treatments are recommended to maintain and enhance results.
+                Derma Stamp can effectively treat a variety of skin concerns, including acne scars, fine lines, wrinkles, pigmentation, stretch marks, and uneven skin tone. It’s suitable for most skin types.
                 </div>
               </div>
             </div>
@@ -440,32 +416,35 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href=""><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">PRP-Skin</h5>
+              <p class="card-text">Also offered at the clinic are PRP-Skin treatments,which use platelet-rich plasma to
+                rejuvenate the</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Tricell</h5>
-            <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to offer a morecomp</p>
-         
-          </div>
+        <a href=""><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Collagen Induction Therapy</h5>
+              <p class="card-text">Another effective treatment is Collagen Induction Therapy, also known as micro
+                needling, which uses </p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">GFC</h5>
-            <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses growthfactors</p>
-         
-          </div>
+        <a href=""><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Peels</h5>
+              <p class="card-text">One popular treatment is chemical peels, which use a variety of acids to remove dead
+                skin cells and </p>
+
+            </div>
         </div>
         </div>
         </div>
@@ -478,7 +457,7 @@ include_once "./header.php";
     include_once "./footer.php";
     ?>
         </footer>
-       
+        <!-- Bootstrap JavaScript Libraries -->
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
