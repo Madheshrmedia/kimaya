@@ -229,6 +229,25 @@ include_once "./header.php";
     .home-card {
         border: none;
     }
+
+    @media only screen and (max-width: 600px) {
+        .banner_image {
+            display: none !important;
+        }
+
+        .home_abt {
+            margin-top: 20px;
+        }
+
+        .core-ser {
+            padding-left: 5px !important;
+            padding-top: 5px !important;
+        }
+
+        /* * {
+            overflow-x: hidden !important;
+        } */
+    }
 </style>
 
 <body>
@@ -279,12 +298,12 @@ include_once "./header.php";
                 </h4>
 
 
-                <a href="#" class="banner-link">
+                <a href="#" class="banner-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Book appointment
                 </a>
             </div>
             <div class="col-md-5 pe-0">
-                <img src="./image/ban-hover.webp" class="img-fluid" alt="">
+                <img src="./image/ban-hover.webp" class="img-fluid banner_image" alt="">
             </div>
         </div>
     </div>
@@ -416,7 +435,7 @@ include_once "./header.php";
                         </p>
                         <img src="./image/jorh.webp" class="img-fluid" alt="">
                     </div>
-                    <div class="col-md-5">
+                    <div class="col-md-5 home_abt">
                         <p class="why_chs">
                             Why Choose Our Solutions?
                         </p>

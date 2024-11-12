@@ -115,13 +115,14 @@
 
         @media only screen and (max-width: 600px) {
 
+
             /* .navbar-brand {
                 display: block;
             } */
 
             .navbar {
-                padding: 0px !important;
-                background: #163033;
+                padding: 5px !important;
+                background: #040404;
             }
 
             .navbar-toggler {
@@ -134,7 +135,6 @@
             }
 
             .navbar-collapse {
-                background: white;
                 padding: 10px 30px;
             }
 
@@ -149,6 +149,61 @@
             .booknow-btn {
                 margin-left: 0px;
             }
+
+            .pop_upicon {
+                display: none !important;
+            }
+
+            .modal-title {
+                font-size: 28px !important;
+            }
+
+            .pop_upimg {
+                display: none !important;
+            }
+
+            .header-cont {
+                display: none !important;
+            }
+
+
+        }
+
+        .pop_upicon {
+            width: 180px;
+        }
+
+        .modal-title {
+            font-size: 34px;
+        }
+
+        .span_title {
+            color: #DDAB07;
+        }
+
+        .position-relative {
+            position: relative;
+        }
+
+        .icon-select {
+            left: 15px;
+            /* Adjust as needed */
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.2em;
+            /* Adjust icon size */
+            color: #6c757d;
+            /* Optional: set icon color */
+        }
+
+        .form-select.ps-5 {
+            padding-left: 2.5rem;
+            /* Adjust padding to make space for the icon */
+        }
+
+        .btn_pop {
+            background: #DDAB07;
+            color: white;
         }
     </style>
 </head>
@@ -159,7 +214,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light shadow px-5 py-3">
             <div class="container-fluid nav-container">
-                <a class="navbar-brand" href="#"><img src="./image/kimaya_logo.png" alt="cogni logo"
+                <a class="navbar-brand" href="./index.php"><img src="./image/kimaya_logo.png" alt="cogni logo"
                         class="header-logo"></a>
                 <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -205,3 +260,67 @@
             </div>
         </nav>
     </header>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">MAKE AN <span class="span_title">
+                            APPOINMENT
+                        </span></h5>
+                    <img src="./image/popup.png" class="pop_upicon" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./image/popl.webp" class="img-fluid pop_upimg" alt="">
+                        </div>
+                        <div class="col-md-7">
+                            <form action="#" method="post">
+                                <div class="row">
+                                    <div class="col-md-6 mt-3">
+                                        <label for="name" class="form-label">Name</label>
+                                        <input type="text" class="form-control" id="email" placeholder="Full name">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <label for="phone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" id="email" placeholder="Enter Phone No">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <label for="date" class="form-label">Date</label>
+                                        <input type="date" class="form-control" id="email" placeholder="Full name">
+                                    </div>
+                                    <div class="col-md-6 mt-3">
+                                        <label for="name" class="form-label">Service</label>
+                                        <input type="text" class="form-control" id="email" placeholder="Enter Service">
+                                    </div>
+                                    <div class="col-md-12 mt-3">
+                                        <label for="message" class="form-label">Message</label>
+                                        <textarea name="message" class="form-control" rows="3" cols="" id=""></textarea>
+                                    </div>
+                                    <div class="col-md-6 mt-3 position-relative">
+                                        <i class="fas fa-map-marker-alt position-absolute icon-select ms-3"></i>
+                                        <select class="form-select ps-5" aria-label="Default select example"
+                                            id="validationCustom04">
+                                            <option selected>Select Location</option>
+                                            <option value="Anna nagar">Anna nagar</option>
+                                            <option value="Adyar">Adyar</option>
+                                        </select>
+                                        <div class="invalid-feedback">
+                                            Please select a location
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 ms-auto mt-3">
+                                        <button class="btn btn_pop" type="submit">Confirm Appointment</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

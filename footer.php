@@ -207,8 +207,57 @@
     });
 
 
+    (() => {
+        'use strict'
+
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        const forms = document.querySelectorAll('.needs-validation')
+
+        // Loop over them and prevent submission
+        Array.from(forms).forEach(form => {
+            form.addEventListener('submit', event => {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })()
 
 
+    document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('.btn_pop').addEventListener('click', function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            // Retrieve form values
+            const name = document.querySelector('input[placeholder="Full name"]').value;
+            const phone = document.querySelector('input[placeholder="Enter Phone No"]').value;
+            const date = document.querySelector('input[type="date"]').value;
+            const service = document.querySelector('input[placeholder="Enter Service"]').value;
+            const message = document.querySelector('textarea[name="message"]').value;
+            const location = document.querySelector('select').value;
+
+            // Determine WhatsApp number based on location
+            let whatsappNumber;
+            if (location === "Anna nagar") {
+                whatsappNumber = "+919884567000";
+            } else if (location === "Adyar") {
+                whatsappNumber = "+919884287000";
+            } else {
+                alert("Please select a valid location.");
+                return;
+            }
+
+            // Construct the WhatsApp message
+            const whatsappMessage = `This appointment is from the website.\n\nHello, I would like to confirm my appointment. \n\nName: ${name}\nPhone: ${phone}\nDate: ${date}\nService: ${service}\nMessage: ${message}\nLocation: ${location}`;
+
+            // Open WhatsApp with the drafted message
+            const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+            window.open(whatsappURL, '_blank');
+        });
+    });
 
 
 
