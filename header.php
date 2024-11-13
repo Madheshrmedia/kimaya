@@ -205,6 +205,19 @@
             background: #DDAB07;
             color: white;
         }
+
+        .btn_pop:hover {
+            background: gray;
+            color: white;
+        }
+
+        .btn-close {
+            margin: 0px 10px !important;
+        }
+
+        .pop_upicon {
+            width: 110px;
+        }
     </style>
 </head>
 
@@ -268,7 +281,7 @@
                     <h5 class="modal-title">MAKE AN <span class="span_title">
                             APPOINMENT
                         </span></h5>
-                    <img src="./image/popup.png" class="pop_upicon" alt="">
+                    <img src="./image/popup.png" class="pop_upicon ms-auto" alt="">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
