@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+    <title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -168,7 +171,7 @@ include_once "./header.php";
        <p>Derma Stamp at Kimaya Clinique is a highly effective skin rejuvenation treatment that uses micro-needling technology to promote collagen production</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
-          <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+        <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
           </div>
           <div class="col-sm-6 col-md-6">
             <span class="fa fa-star checked"></span>
@@ -416,7 +419,7 @@ include_once "./header.php";
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-            <a href=""><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
+            <a href="./prpskin.php"><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">PRP-Skin</h5>
               <p class="card-text">Also offered at the clinic are PRP-Skin treatments,which use platelet-rich plasma to
@@ -427,7 +430,7 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-        <a href=""><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
+        <a href="./collagen.php"><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Collagen Induction Therapy</h5>
               <p class="card-text">Another effective treatment is Collagen Induction Therapy, also known as micro
@@ -438,7 +441,7 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-        <a href=""><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
+        <a href="./peel.php"><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Peels</h5>
               <p class="card-text">One popular treatment is chemical peels, which use a variety of acids to remove dead

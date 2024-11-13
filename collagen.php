@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+    <title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -168,7 +171,7 @@ include_once "./header.php";
        <p>Collagen Induction Therapy (CIT) at Kimaya Clinique is a revolutionary skin rejuvenation treatment designed to naturally boost collagen production.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
-          <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+        <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
           </div>
           <div class="col-sm-6 col-md-6">
             <span class="fa fa-star checked"></span>
@@ -411,13 +414,13 @@ include_once "./header.php";
           </div>
            
             <div class="col-sm-6 col-md-6 alignright" >
-              <button type="button" class="btn btn-primary orangebut">All Services</button>
+            <a href="./service.php #skin"> <button type="button" class="btn btn-primary orangebut">All Services</button></a> 
             </div>
           </div>
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-            <a href=""><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
+            <a href="./dermaplant.php"><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Dermaplaning</h5>
               <p class="card-text">Dermaplaning is a form of exfoliation that removes dead skin cells and vellus hair to
@@ -428,7 +431,7 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-        <a href=""><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
+        <a href="./dermastamp.php"><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Derma Stamp</h5>
               <p class="card-text">Kimaya Clinique also offers Derma Stamp, aminimally invasive treatment that uses a
@@ -439,7 +442,7 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-        <a href=""><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
+        <a href="./peel.php"><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Peels</h5>
               <p class="card-text">One popular treatment is chemical peels, which use a variety of acids to remove dead

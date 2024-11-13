@@ -1,20 +1,5 @@
-.margintop{
-    margin-top:5rem;
-}
-.margintoprow{
-margin-top:3rem;
-}
-.cardwidth
-{
-width: 23rem; 
-padding: 1rem;
-background-color:#F8F8F8;
-border:none
-}
-.cardwidth:hover{
-border-radius:15px;
-border:1px solid #E4BD42;
-}
+
+
 .cardwidth h5{
 font-weight:600;
 }
@@ -152,9 +137,7 @@ background: rgba(0, 0, 0, 0.5);
 padding: 20px;
 border-radius: 8px;
 }
-#nailframe img{
-width: 100%;
-}
+
 .nailframe{
 margin-top: 6rem;
 }

@@ -2,7 +2,10 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+<title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -15,13 +18,42 @@
   <link rel="stylesheet" href="./asset/css/service.css">
   <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-5/assets/css/hero-5.css">
 
-
+<style>
+  .margintoprow{
+margin-top:3rem !important;
+}
+.cardwidth
+{
+width: 23rem; 
+padding: 1rem;
+background-color:#F8F8F8 !important;
+border:none !important;
+}
+.cardwidth:hover{
+border-radius:15px!important;
+border:1px solid #E4BD42!important;
+}
+.margintop{
+    margin-top:5rem !important;
+}
+#nailframe {
+  margin-bottom:5rem;
+}
+.nailframe {
+  margin-bottom:3rem;
+}
+#nailframe img{
+width: 90%;
+}
+</style>
 
 </head>
 
 <body>
   <header>
-    <!-- place navbar here -->
+  <?php
+include_once "./header.php";
+?>
   </header>
   <main>
     <!-- Hero 5 - Bootstrap Brain Component -->
@@ -40,7 +72,7 @@
         </div>
       </div>
     </section>
-    <div class="container margintop">
+    <div class="container margintop" id="hair">
       <div class="row ">
         <div class="col-4">
           <h2>Hair</h2>
@@ -49,22 +81,49 @@
 
         </div>
         <div class="col-4" id="interfont">
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" aria-label="Default select example" id="serviceSelect">
             <option selected>Select service</option>
-            <option value="1">Hair</option>
+            <option value="1"><a href="./about.php">Hair</a></option>
             <option value="2">Skin</option>
             <option value="3">Dental</option>
-            <option value="3">Laser</option>
-            <option value="3">Nails</option>
-            <option value="3">Advance procedure</option>
-            <option value="3">Semi permanent makeup</option>
+            <option value="4">Laser</option>
+            <option value="5">Nails</option>
+            <option value="6">Advance procedure</option>
+            <option value="7">Semi permanent makeup</option>
           </select>
         </div>
       </div>
+      <script>
+  document.getElementById('serviceSelect').addEventListener('change', function() {
+    var selectedValue = this.value;
+    
+    // Add your navigation logic based on selected value
+    if (selectedValue == '2') {
+      window.location.href = '#skin'; // Navigate to about.php for "Hair"
+    }
+    if (selectedValue == '3') {
+      window.location.href = '#dental'; // Navigate to about.php for "Hair"
+    }
+    if (selectedValue == '4') {
+      window.location.href = '#laser'; // Navigate to about.php for "Hair"
+    }
+    if (selectedValue == '5') {
+      window.location.href = '#nail'; // Navigate to about.php for "Hair"
+    }
+    if (selectedValue == '6') {
+      window.location.href = '#advance'; // Navigate to about.php for "Hair"
+    }
+   if (selectedValue == '7') {
+      window.location.href = '#semi'; // Navigate to about.php for "Hair"
+    }
+   
+    // You can add other conditions for the rest of the options as needed
+  });
+</script>
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/card1.webp" alt="card1" style="width:100%;"></a>
+            <a href="./lasertherapy.php"><img src="./images/card1.webp" alt="card1" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Light Therapy</h5>
               <p class="card-text">And finally, we also provide Light Therapy, utilizing low-level laser light to
@@ -75,7 +134,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a>
+            <a href="./tricell.php"><img src="./images/card2.webp" alt="card2" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Tricell</h5>
               <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to
@@ -86,7 +145,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a>
+            <a href="./gfc.php"><img src="./images/card3.webp" alt="card3" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">GFC</h5>
               <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option that harnesses
@@ -99,7 +158,7 @@
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/card4.webp" alt="card4" style="width:100%;"></a>
+            <a href="./prp.php"><img src="./images/card4.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">PRP for Hair</h5>
               <p class="card-text">One of our sought-after treatments is PRP (Platelet-Rich Plasma), which utilizes the
@@ -111,7 +170,7 @@
       </div>
 
       <!-- -------------------- -->
-      <div class="row margintop">
+      <div class="row margintop" id="skin">
         <div class="col-4">
           <h2>Skin</h2>
         </div>
@@ -120,7 +179,7 @@
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin1.webp" alt="card1" style="width:100%;"></a>
+            <a href="./lighten.php"><img src="./images/skin1.webp" alt="card1" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Skin Lightening</h5>
               <p class="card-text">Skin lightening is another form that can be availed atthe clinic to address
@@ -131,7 +190,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin2.webp" alt="card2" style="width:100%;"></a>
+            <a href="./vampire.php"><img src="./images/skin2.webp" alt="card2" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Vampire Facial</h5>
               <p class="card-text">The Vampire Facial is a treatment that involves using the patient’s own blood to
@@ -142,7 +201,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
+            <a href="./dermaplant.php"><img src="./images/skin3.webp" alt="card3" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Dermaplaning</h5>
               <p class="card-text">Dermaplaning is a form of exfoliation that removes dead skin cells and vellus hair to
@@ -155,7 +214,7 @@
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
+            <a href="./dermastamp.php"><img src="./images/skin4.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Derma Stamp</h5>
               <p class="card-text">Kimaya Clinique also offers Derma Stamp, aminimally invasive treatment that uses a
@@ -167,7 +226,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
+            <a href="./prpskin.php"><img src="./images/skin5.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">PRP-Skin</h5>
               <p class="card-text">Also offered at the clinic are PRP-Skin treatments,which use platelet-rich plasma to
@@ -179,7 +238,7 @@
         </div>
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
+            <a href="./collagen.php"><img src="./images/skin6.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Collagen Induction Therapy</h5>
               <p class="card-text">Another effective treatment is Collagen Induction Therapy, also known as micro
@@ -193,7 +252,7 @@
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
+            <a href="./peel.php"><img src="./images/skin7.webp" alt="card4" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Peels</h5>
               <p class="card-text">One popular treatment is chemical peels, which use a variety of acids to remove dead
@@ -206,7 +265,7 @@
       </div>
       <!-- ----------------------------- -->
       <!-- -------------------- -->
-      <div class="row margintop">
+      <div class="row margintop" id="dental">
         <div class="col-4">
           <h2>Dental</h2>
         </div>
@@ -215,7 +274,7 @@
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
-            <a href=""><img src="./images/dental1.webp" alt="card1" style="width:100%;"></a>
+            <a href="./oral.php"><img src="./images/dental1.webp" alt="card1" style="width:100%;"></a>
             <div class="card-body">
               <h5 class="card-title">Oral Cancer Screening & Treatment</h5>
               <p class="card-text">We also specialize in early detection and treatment of Oral Cancer through our Oral
@@ -290,7 +349,7 @@
 
         <!-- ----------------------------- -->
         <!-- -------------------- -->
-        <div class="row margintop">
+        <div class="row margintop" id="laser">
           <div class="col-4">
             <h2>Laser</h2>
           </div>
@@ -333,7 +392,7 @@
         </div>
         <!-- ----------------------------- -->
         <!-- -------------------- -->
-        <div class="row margintop">
+        <div class="row margintop" id="nail">
           <div class="col-4">
             <h2>Nails</h2>
           </div>
@@ -358,7 +417,7 @@
 
         <!-- ----------------------------- -->
         <!-- -------------------- -->
-        <div class="row margintop">
+        <div class="row margintop" id="advance">
           <div class="col-4">
             <h2>Advance procedures</h2>
           </div>
@@ -414,7 +473,7 @@
         </div>
         <!-- ----------------------------- -->
         <!-- -------------------- -->
-        <div class="row margintop">
+        <div class="row margintop" id="semi">
           <div class="col-4">
             <h2>Semi permanent makeup</h2>
           </div>
@@ -477,7 +536,7 @@
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg.webp" alt="slideimg">
-              <button class="center-button">Visit Us</button>
+            <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
             </div>
           </div>
           <!-- ------------------ -->
@@ -500,7 +559,7 @@
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg1.webp" alt="slideimg1">
-              <button class="center-button">Visit Us</button>
+              <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
             </div>
           </div>
           <!-- ------------------ -->
@@ -524,7 +583,7 @@
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg2.webp" alt="slideimg2">
-              <button class="center-button">Visit Us</button>
+              <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
             </div>
           </div>
           <!-- ------------------ -->
@@ -550,7 +609,7 @@
             <p><span><img src="./images/Vector.webp"></span> Comprehensive Range of Services</p>
           </div>
 
-          <button type="button" class="btn btn-primary">Book a Consultation Now!</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="border: none;">Book a Consultation Now!</button>
 
         </div>
       </div>
@@ -558,7 +617,9 @@
 
   </main>
   <footer>
-    <!-- place footer here -->
+  <?php
+    include_once "./footer.php";
+    ?>
   </footer>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"

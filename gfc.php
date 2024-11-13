@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+    <title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -168,7 +171,7 @@ include_once "./header.php";
        <p>Kimaya Clinique’s Growth Factor Concentrate (GFC) therapy is a cutting-edge, non-surgical solution designed to rejuvenate your hair, and overall appearance. </p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
-          <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+        <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
           </div>
           <div class="col-sm-6 col-md-6">
             <span class="fa fa-star checked"></span>
@@ -408,23 +411,24 @@ include_once "./header.php";
           </div>
            
             <div class="col-sm-6 col-md-6 alignright" >
-              <button type="button" class="btn btn-primary orangebut">All Services</button>
+            <a href="./service.php #hair"> <button type="button" class="btn btn-primary orangebut">All Services</button></a> 
             </div>
           </div>
           <div class="row margintoprow" >
             <div class="col-sm-5 col-md-4">
             <div class="card cardwidth2" >
-         <a href=""><img src="./images/hairtrans.webp" alt="card1" style="width:100%;"></a> 
-          <div class="card-body">
-            <h5 class="card-title">Hair Transplantation</h5>
-            <p class="card-text">For those looking for a more permanent solution, we offer hair transplantation using the latestsurg</p>
-         
-          </div>
+            <a href="./tricell.php"><img src="./images/card2.webp" alt="card2" style="width:100%;"></a>
+            <div class="card-body">
+              <h5 class="card-title">Tricell</h5>
+              <p class="card-text">Another highly popular choice is Tricell, which combines PRP and growth factors to
+                offer a morecomp</p>
+
+            </div>
         </div>
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-         <a href=""><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
+        <a href="./lasertherapy.php"><img src="./images/card2.webp" alt="card2" style="width:100%;"></a> 
          <div class="card-body">
             <h5 class="card-title">Light Therapy</h5>
             <p class="card-text">And finally, we also provide Light Therapy, utilizing low-level laser light to enhance hair growth a</p>
@@ -434,7 +438,7 @@ include_once "./header.php";
         </div>
         <div class="col-sm-5 col-md-4">
         <div class="card cardwidth2" >
-        <a href=""><img src="./images/card4.webp" alt="card4" style="width:100%;"></a> 
+        <a href="./prp.php"><img src="./images/card4.webp" alt="card4" style="width:100%;"></a>
 
           <div class="card-body">
             <h5 class="card-title">PRP for Hair</h5>

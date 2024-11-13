@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
-        <!-- Required meta tags -->
+     
+       <title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
         <meta charset="utf-8" />
         <meta
             name="viewport"
@@ -19,6 +22,7 @@
         <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.3/dist/css/bootstrap.min.css">
         <link rel="stylesheet" href="./asset/css/abt.css">
 <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-5/assets/css/hero-5.css">
+
 <style>
      #journey,#misvisframe{
         margin-top:5rem;
@@ -216,8 +220,10 @@ margin-bottom: 1rem;
     margin-top:3rem !important;
   }
   .heading{
+    color:#5B5B5B;
     margin:1rem 0;
   }
+  
 </style>
     </head>
 
@@ -355,7 +361,7 @@ include_once "./header.php";
           </div>
         </div>
         <div class="col-sm-6 col-md-6">
-          <img src="./images/grp.webp" alt="image">
+          <img src="./images/grp.webp" alt="image" style="width:100%">
         </div>
       </div>  
     </div>
@@ -417,12 +423,51 @@ include_once "./header.php";
        <h5 class="heading">STEP 1</h5>
        <h5>Book Your Appointment</h5>
           </div>
-           <div class="col-sm-6 col-md-6 aligncenter">
-           <img src="./images/guidance_right-arrow.png"  align="left"/>
+           <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+           <img src="./images/guidance_right-arrow.png" />
            </div>
         </div>
       
-       </div>     
+       </div> 
+       <div class="col-sm-6 col-md-3 ">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 aligncenter">
+          <img src="./images/Icon.png"  alt="Icon"/>
+       <h5 class="heading">STEP 2</h5>
+       <h5>Personalized Consultation</h5>
+          </div>
+           <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+           <img src="./images/guidance_right-arrow.png" />
+           </div>
+        </div>
+      
+       </div>  
+       <div class="col-sm-6 col-md-3 ">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 aligncenter">
+          <img src="./images/Icon.png"  alt="Icon"/>
+       <h5 class="heading">STEP 3</h5>
+       <h5>Specialized Treatment</h5>
+          </div>
+           <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+           <img src="./images/guidance_right-arrow.png" />
+           </div>
+        </div>
+      
+       </div>  
+       <div class="col-sm-6 col-md-3 ">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 aligncenter">
+          <img src="./images/Icon.png"  alt="Icon"/>
+       <h5 class="heading">STEP 1</h5>
+       <h5>Follow-Up & Aftercare</h5>
+          </div>
+           <div class="col-sm-6 col-md-6 d-flex justify-content-center align-items-center">
+         
+           </div>
+        </div>
+      
+       </div>
        </div>
    </div>
     </div>
@@ -430,6 +475,26 @@ include_once "./header.php";
    </div>
  
 <!-- --------------------------------------------- -->
+<div class="priority">
+    <div class="container" >
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+        <div id="texts" style="white-space:nowrap;">
+         <img src="./images/star.webp"  align="left"/>
+        </div>
+       <h5>JOURNEY</h5> 
+       <h2 style="font-weight:600">Meet Our Specialist</h2>
+       <p>Dedicated to your aesthetic journey, our doctors delivers outstanding results. Your beauty is in expert hands with our talented and caring doctors</p>
+     
+      </div>
+       
+     
+      </div>
+   
+
+  
+    </div>
+   </div>
         </main>
         <footer>
         <?php

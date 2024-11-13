@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+    <title>Kimaya Clinique</title>
+    <!-- Favicon -->
+
+    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -168,7 +171,7 @@ include_once "./header.php";
        <p>At Kimaya Clinique, our Oral Cancer Screening & Treatment service offers comprehensive early detection and expert care for oral cancer.</p>
        <div class="row" style="margin-top: 2rem;">
         <div class="col-sm-6 col-md-6">
-          <button type="button" class="btn btn-primary orangebut" data-bs-target="#exampleModal" >BOOK NOW</button>
+        <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOK NOW</button>
           </div>
           <div class="col-sm-6 col-md-6">
             <span class="fa fa-star checked"></span>
@@ -408,7 +411,7 @@ include_once "./header.php";
           </div>
            
             <div class="col-sm-6 col-md-6 alignright" >
-              <button type="button" class="btn btn-primary orangebut">All Services</button>
+            <a href="./service.php #dental"> <button type="button" class="btn btn-primary orangebut">All Services</button></a> 
             </div>
           </div>
           <div class="row margintoprow" >
