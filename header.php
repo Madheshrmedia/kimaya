@@ -26,11 +26,66 @@
 
 
     <style>
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Black.otf') format('opentype');
+            font-weight: 900;
+            /* Black */
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Bold.otf') format('opentype');
+            font-weight: 700;
+            /* Bold */
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Book-.otf') format('opentype');
+            font-weight: 400;
+            /* Book */
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Book-Italic.otf') format('opentype');
+            font-weight: 400;
+            /* Book Italic */
+            font-style: italic;
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Medium.otf') format('opentype');
+            font-weight: 500;
+            /* Medium */
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Semi-Bold.otf') format('opentype');
+            font-weight: 600;
+            /* Semi-Bold */
+        }
+
+        @font-face {
+            font-family: 'Magenta';
+            src: url('fonts/fonnts.com-Magneta-Thin.otf') format('opentype');
+            font-weight: 100;
+            /* Thin */
+        }
+
+        * {
+            font-family: 'Magenta' !important;
+        }
+
         #headerall {
             background: #000000 !important;
             z-index: 7;
             position: relative;
         }
+
 
         .header .navbar .navbar-nav .nav-item .nav-link {
             color: #ffffff;
@@ -225,7 +280,7 @@
 <body>
     <header class="header header-sticky" id="headerall">
 
-        <nav class="navbar navbar-expand-lg navbar-light shadow px-5 py-3">
+        <nav class="navbar navbar-expand-lg navbar-light shadow px-5 py-3 sticky-top">
             <div class="container-fluid nav-container">
                 <a class="navbar-brand" href="./index.php"><img src="./image/kimaya_logo.png" alt="cogni logo"
                         class="header-logo"></a>

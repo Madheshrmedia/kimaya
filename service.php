@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-<title>Kimaya Clinique</title>
-    <!-- Favicon -->
+  <title>Kimaya Clinique</title>
+  <!-- Favicon -->
 
-    <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
+  <link rel="icon" type="image/x-icon" href="./image/Kimaya Fav icon.png">
   <!-- Required meta tags -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -18,46 +18,51 @@
   <link rel="stylesheet" href="./asset/css/service.css">
   <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/components/heroes/hero-5/assets/css/hero-5.css">
 
-<style>
-  .margintoprow{
-margin-top:3rem !important;
-}
-.cardwidth
-{
-width: 23rem; 
-padding: 1rem;
-background-color:#F8F8F8 !important;
-border:none !important;
-}
-.cardwidth:hover{
-border-radius:15px!important;
-border:1px solid #E4BD42!important;
-}
-.margintop{
-    margin-top:5rem !important;
-}
-#nailframe {
-  margin-bottom:5rem;
-}
-.nailframe {
-  margin-bottom:3rem;
-}
-#nailframe img{
-width: 90%;
-}
-</style>
+  <style>
+    .margintoprow {
+      margin-top: 3rem !important;
+    }
+
+    .cardwidth {
+      width: 23rem;
+      padding: 1rem;
+      background-color: #F8F8F8 !important;
+      border: none !important;
+    }
+
+    .cardwidth:hover {
+      border-radius: 15px !important;
+      border: 1px solid #E4BD42 !important;
+    }
+
+    .margintop {
+      margin-top: 5rem !important;
+    }
+
+    #nailframe {
+      margin-bottom: 5rem;
+    }
+
+    .nailframe {
+      margin-bottom: 3rem;
+    }
+
+    #nailframe img {
+      width: 90%;
+    }
+  </style>
 
 </head>
 
 <body>
   <header>
-  <?php
-include_once "./header.php";
-?>
+    <?php
+    include_once "./header.php";
+    ?>
   </header>
   <main>
     <!-- Hero 5 - Bootstrap Brain Component -->
-    <section class="bsb-hero-5 px-3 bsb-overlay" style="background-image: url('./images/servbanner.webp');">
+    <!-- <section class="bsb-hero-5 px-3 bsb-overlay" style="background-image: url('./images/servbanner.webp');">
       <div class="container">
         <div class="row justify-content-md-center align-items-center">
           <div class="col-12 col-md-11 col-lg-9 col-xl-8 col-xxl-8">
@@ -71,7 +76,8 @@ include_once "./header.php";
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+    <img src="./image/ser-ban.webp" class="img-fluid" alt="">
     <div class="container margintop" id="hair">
       <div class="row ">
         <div class="col-4">
@@ -94,32 +100,32 @@ include_once "./header.php";
         </div>
       </div>
       <script>
-  document.getElementById('serviceSelect').addEventListener('change', function() {
-    var selectedValue = this.value;
-    
-    // Add your navigation logic based on selected value
-    if (selectedValue == '2') {
-      window.location.href = '#skin'; // Navigate to about.php for "Hair"
-    }
-    if (selectedValue == '3') {
-      window.location.href = '#dental'; // Navigate to about.php for "Hair"
-    }
-    if (selectedValue == '4') {
-      window.location.href = '#laser'; // Navigate to about.php for "Hair"
-    }
-    if (selectedValue == '5') {
-      window.location.href = '#nail'; // Navigate to about.php for "Hair"
-    }
-    if (selectedValue == '6') {
-      window.location.href = '#advance'; // Navigate to about.php for "Hair"
-    }
-   if (selectedValue == '7') {
-      window.location.href = '#semi'; // Navigate to about.php for "Hair"
-    }
-   
-    // You can add other conditions for the rest of the options as needed
-  });
-</script>
+        document.getElementById('serviceSelect').addEventListener('change', function () {
+          var selectedValue = this.value;
+
+          // Add your navigation logic based on selected value
+          if (selectedValue == '2') {
+            window.location.href = '#skin'; // Navigate to about.php for "Hair"
+          }
+          if (selectedValue == '3') {
+            window.location.href = '#dental'; // Navigate to about.php for "Hair"
+          }
+          if (selectedValue == '4') {
+            window.location.href = '#laser'; // Navigate to about.php for "Hair"
+          }
+          if (selectedValue == '5') {
+            window.location.href = '#nail'; // Navigate to about.php for "Hair"
+          }
+          if (selectedValue == '6') {
+            window.location.href = '#advance'; // Navigate to about.php for "Hair"
+          }
+          if (selectedValue == '7') {
+            window.location.href = '#semi'; // Navigate to about.php for "Hair"
+          }
+
+          // You can add other conditions for the rest of the options as needed
+        });
+      </script>
       <div class="row margintoprow">
         <div class="col-sm-5 col-md-4">
           <div class="card cardwidth">
@@ -536,7 +542,7 @@ include_once "./header.php";
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg.webp" alt="slideimg">
-            <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
+              <a href="./contact.php"><button class="center-button">Visit Us</button></a>
             </div>
           </div>
           <!-- ------------------ -->
@@ -559,7 +565,7 @@ include_once "./header.php";
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg1.webp" alt="slideimg1">
-              <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
+              <a href="./contact.php"><button class="center-button">Visit Us</button></a>
             </div>
           </div>
           <!-- ------------------ -->
@@ -583,7 +589,7 @@ include_once "./header.php";
             </div>
             <div class="col-sm-6 col-md-6 image-container" style="text-align: end;">
               <img src="./images/slideimg2.webp" alt="slideimg2">
-              <a href="./contact.php"><button class="center-button">Visit Us</button></a>  
+              <a href="./contact.php"><button class="center-button">Visit Us</button></a>
             </div>
           </div>
           <!-- ------------------ -->
@@ -609,7 +615,8 @@ include_once "./header.php";
             <p><span><img src="./images/Vector.webp"></span> Comprehensive Range of Services</p>
           </div>
 
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"  style="border: none;">Book a Consultation Now!</button>
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+            style="border: none;">Book a Consultation Now!</button>
 
         </div>
       </div>
@@ -617,7 +624,7 @@ include_once "./header.php";
 
   </main>
   <footer>
-  <?php
+    <?php
     include_once "./footer.php";
     ?>
   </footer>

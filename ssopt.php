@@ -250,7 +250,8 @@
                         or discomfort during medical and dental procedures.</p>
                     <div class="row" style="margin-top: 2rem;">
                         <div class="col-sm-6 col-md-6">
-                            <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+                            <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">BOOK NOW</button>
                         </div>
                         <div class="col-sm-6 col-md-6">
                             <span class="fa fa-star checked"></span>
@@ -555,7 +556,7 @@
                 </div>
                 <div class="col-sm-5 col-md-4">
                     <div class="card cardwidth2">
-                        <a href=""><img src="./images/card3.webp" alt="card3" style="width:100%;"></a>
+                        <a href="./gfc.php"><img src="./images/card3.webp" alt="card3" style="width:100%;"></a>
                         <div class="card-body">
                             <h5 class="card-title">GFC</h5>
                             <p class="card-text">We also provide GFC [Growth Factor Concentrate], a non-surgical option

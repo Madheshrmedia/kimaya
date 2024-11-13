@@ -254,7 +254,8 @@
                         natural-looking eyebrows.</p>
                     <div class="row" style="margin-top: 2rem;">
                         <div class="col-sm-6 col-md-6">
-                            <button type="button" class="btn btn-primary orangebut">BOOK NOW</button>
+                            <button type="button" class="btn btn-primary orangebut" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">BOOK NOW</button>
                         </div>
                         <div class="col-sm-6 col-md-6">
                             <span class="fa fa-star checked"></span>
