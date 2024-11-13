@@ -485,7 +485,147 @@ include_once "./header.php";
        <h5>JOURNEY</h5> 
        <h2 style="font-weight:600">Meet Our Specialist</h2>
        <p>Dedicated to your aesthetic journey, our doctors delivers outstanding results. Your beauty is in expert hands with our talented and caring doctors</p>
-     
+     <!-- ----------------------------------------------- -->
+     <div id="slider-container" class="slider">
+  <div class="slide">
+    <img src="./images/Card 1.webp" alt="card1">
+  </div>
+  <div class="slide">
+    <img src="./images/Card 2.webp" alt="card2">
+  </div>
+  <div class="slide">
+    <img src="./images/Card 3.webp" alt="card3">
+  </div>
+  <div class="slide">
+    <img src="./images/Card 4.webp" alt="card4">
+  </div>
+  <!-- Add more slides if needed -->
+
+ 
+</div>
+
+<div class="overlay"></div>
+
+<style>
+  #slider-container .slide{
+    /* height:350px; */
+  }
+  #slider-container .slide img{
+    width:100%;
+  }
+  .slider {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+
+  .slide {
+    min-width: calc(100% / 3); /* Display 3 slides per view */
+    transition: transform 0.25s ease-in-out;
+    margin: 0 5px;
+  }
+
+  .slide img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+  }
+
+  .control-prev-btn, .control-next-btn {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(255, 255, 255, 0.55);
+    height: 100px;
+    line-height: 100px;
+    width: 45px;
+    text-align: center;
+    box-shadow: 0 1px 3px #888;
+    user-select: none;
+    color: #444;
+    cursor: pointer;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+
+  .control-prev-btn {
+    left: 0;
+  }
+
+  .control-next-btn {
+    right: 0;
+  }
+
+  .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    top: 0;
+    display: none;
+  }
+
+  .overlay.active {
+    display: block;
+  }
+
+  .slide img.zoomed {
+    width: 500px;
+    height: 600px;
+    position: fixed;
+    left: 25%;
+    top: 0%;
+    z-index: 1000;
+    transform: scale(1) translateY(0) !important;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .slide {
+      min-width: 100%; /* Show only 1 slide per view for small screens */
+    }
+  }
+</style>
+
+<script>
+  let sliderContainer = document.getElementById('slider-container');
+  let scrollSpeed = 2; // Speed of scroll in pixels
+  let autoScroll;
+
+  // Function to autoplay slider horizontally
+  function autoPlaySlider() {
+    autoScroll = setInterval(() => {
+      sliderContainer.scrollLeft += scrollSpeed;
+      if (sliderContainer.scrollLeft + sliderContainer.clientWidth >= sliderContainer.scrollWidth) {
+        sliderContainer.scrollLeft = 0; // Reset scroll to the start for infinite loop
+      }
+    }, 16); // Adjust the interval for smoothness (16ms ~ 60fps)
+  }
+
+  // Stop auto scroll when hovering
+  function stopAutoScroll() {
+    clearInterval(autoScroll);
+  }
+
+  // Event listeners to stop auto-scroll on mouse hover and restart when not hovering
+  sliderContainer.addEventListener('mouseenter', stopAutoScroll);
+  sliderContainer.addEventListener('mouseleave', autoPlaySlider);
+
+  // Zoom functionality
+  document.querySelectorAll(".slide img").forEach(img => {
+    img.addEventListener("click", function () {
+      this.classList.toggle('zoomed');
+      document.querySelector(".overlay").classList.toggle('active');
+    });
+  });
+
+  // Start auto-scrolling on page load
+  window.onload = autoPlaySlider;
+</script>
+
+
+<!-- -------------------------------------------------------------- -->
       </div>
        
      
